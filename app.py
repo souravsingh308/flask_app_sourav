@@ -6,7 +6,6 @@ import datetime
 
 app = Flask(__name__)
 
-mydb = sql.connect(host='40.71.203.68', user='lhdbadmin', password='JBDKJSBFK82652##@')
 mycursor = mydb.cursor()
 @app.route('/signin', methods=['POST'])
 def Signin():
